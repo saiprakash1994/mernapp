@@ -25,7 +25,7 @@ const Signup = () => {
             return handleError('name,email and password are required')
         }
         try {
-            const url = "http://localhost:8080/auth/signup";
+            const url = "https://mernapp-sage.vercel.app/auth/signup";
             const response = await axios.post(url, signUpInfo)
             console.log(response, 'dddddddd')
             const { success, message } = response.data;
