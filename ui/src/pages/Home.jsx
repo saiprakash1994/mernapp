@@ -20,7 +20,7 @@ const Home = () => {
     });
     const handleFetch = async () => {
         try {
-            const url = "https://mernapp-sage.vercel.app/products";
+            const url = "https://mernapp-saiprakash1994s-projects.vercel.app/products";
 
             const responce = await axios.get(url, {
                 headers: {
