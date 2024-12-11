@@ -23,7 +23,7 @@ const Login = () => {
             return handleError('email and password are required')
         }
         try {
-            const url = "https://mernapp-sage.vercel.app/auth/login";
+            const url = "https://mernapp-saiprakash1994s-projects.vercel.app/auth/login";
             const response = await axios.post(url, loginInfo)
             console.log(response, 'dddddddd')
             const { success, message, jwtToken, name } = response.data;
